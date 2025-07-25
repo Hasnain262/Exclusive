@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <title>Exclusive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div
+        class="pre-nav-section bg-[#000000] text-white py-2 md:py-3 px-4 md:px-8 lg:px-32 flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-2 sm:gap-4">
+        <div class="flex justify-center items-center w-full sm:w-auto flex-1">
+            <h1 class="text-xs sm:text-sm lg:text-base text-center">
+                Summer Sale For All Swim Suits And Free Express Delivery - oFF 50%!
+                <b class="underline font-thin ml-2">ShopNow</b>
+            </h1>
+        </div>
+        <div class="flex justify-center items-center gap-2 w-full sm:w-auto sm:flex-shrink-0">
+            <h1 class="text-xs sm:text-sm lg:text-base">English</h1>
+            <i class="fa-solid fa-angle-down text-xs sm:text-sm"></i>
+        </div>
+    </div>
+    <div
+        class="navbar-section flex flex-col lg:flex-row justify-between items-center py-4 lg:py-8 px-4 md:px-20 lg:px-14 xl:px-20 gap-4 lg:gap-0">
+        <div class="w-full lg:w-auto flex justify-center lg:justify-start">
+            <h1 class="text-2xl md:text-3xl font-bold">Exclusive</h1>
+        </div>
+        <div class="w-full lg:w-auto flex justify-center order-3 lg:order-2">
+            <ul class="flex items-center justify-center gap-6 md:gap-8 lg:gap-10">
+                <li class="text-base md:text-lg lg:text-xl"><a href="index.html"
+                        class="hover:border-b-[1px] transition-all duration-600 pb-1 border-black">Home</a></li>
+                <li class="text-base md:text-lg lg:text-xl"><a href="Contact.html"
+                        class="hover:border-b-[1px] transition-all duration-600 pb-1 border-black">Contact</a>
+                </li>
+                <li class="text-base md:text-lg lg:text-xl"><a href="About.html"
+                        class="hover:border-b-[1px] transition-all duration-600 pb-1 border-black">About</a></li>
+                <li class="text-base md:text-lg lg:text-xl"><a href="SignUp.html"
+                        class="hover:border-b-[1px] transition-all duration-600 pb-1 border-black">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+        <div class="w-full lg:w-auto flex justify-center lg:justify-end items-center gap-3 md:gap-4 order-2 lg:order-3">
+            <div class="relative">
+                <input type="search" placeholder="Search"
+                    class="bg-[#f5f5f5] py-2 px-4 md:px-5 rounded-lg text-sm md:text-base w-40 md:w-48 lg:w-auto">
+                <i
+                    class="fa-solid fa-magnifying-glass text-sm md:text-lg absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer"></i>
+            </div>
+            <div class="relative">
+                <a href="WishList.html">
+                    <i class="fa-solid fa-heart text-lg md:text-xl cursor-pointer text-red-500"></i>
+                    <span id="wishlist-count"
+                        class="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold px-1.5 py-0.5 rounded-full hidden">
+                    </span>
+                </a>
+            </div>
+            <div class="relative">
+                <a href="Cart.html">
+                    <i class="fa-solid fa-cart-shopping text-lg md:text-xl cursor-pointer text-blue-500"></i>
+                    <span id="cart-count"
+                        class="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold px-1.5 py-0.5 rounded-full hidden">
+                    </span>
+                </a>
+            </div>
+
+            <a href="Account.html"><i
+                    class="hgi hgi-stroke hgi-sharp hgi-user text-lg md:text-xl cursor-pointer text-blue-500"></i></a>
+        </div>
+    </div>
+    <hr>
+    <div class="relative px-4 sm:px-8 md:px-12 lg:px-20 py-16 sm:py-20 md:py-24 lg:py-32">
+        <h1
+            class="flex text-sm sm:text-base lg:text-lg absolute left-4 sm:left-8 md:left-12 lg:left-20 top-8 sm:top-10 md:top-12 lg:top-16 text-[#808080]">
+            <a href="index.html">Home&nbsp;&nbsp;</a>/<a href="Cart.html" class="text-black">&nbsp;&nbsp;Cart</a>
+        </h1>
+
+        <div
+            class="flex flex-col justify-center items-center gap-6 sm:gap-8 lg:gap-10 w-full h-auto mt-10 sm:mt-12 lg:mt-14">
+            <div class="w-full">
+                <div class="hidden md:block overflow-x-auto">
+                    <table class="w-full min-w-[600px] shadow-md">
+                        <thead>
+                            <tr class="text-sm sm:text-base lg:text-lg h-[60px] sm:h-[66px] lg:h-[72px]">
+                                <th class="text-left px-4 sm:px-6 lg:px-10 font-normal">Product</th>
+                                <th class="text-center px-4 sm:px-6 lg:px-10 font-normal">Price</th>
+                                <th class="text-center px-4 sm:px-6 lg:px-10 font-normal">Quantity</th>
+                                <th class="text-center px-4 sm:px-6 lg:px-10 font-normal">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cart-items-desktop"></tbody>
+                    </table>
+                </div>
+
+                <div id="cart-items-mobile" class="md:hidden flex flex-col gap-4"></div>
+            </div>
+
+            <div class="h-auto w-full flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+                <a href="index.html"
+                    class="border border-[#999999] px-6 sm:px-8 lg:px-10 py-3 sm:py-4 text-sm sm:text-md rounded-md font-bold tracking-wide w-full sm:w-auto text-center">
+                    Return To Shop
+                </a>
+                <button id="update-cart"
+                    class="border border-[#999999] px-6 sm:px-8 lg:px-10 py-3 sm:py-4 text-sm sm:text-md rounded-md font-bold tracking-wide w-full sm:w-auto text-center">
+                    Update Cart
+                </button>
+            </div>
+
+            <div
+                class="h-auto w-full flex flex-col lg:flex-row justify-between items-start mt-6 sm:mt-8 lg:mt-10 gap-6 lg:gap-0">
+                <div
+                    class="flex flex-col sm:flex-row justify-start items-center gap-4 sm:gap-5 w-full lg:w-[60%] lg:pr-48">
+                    <input type="text"
+                        class="px-4 sm:px-5 py-3 sm:py-4 text-base sm:text-lg focus:outline-none border border-[#999999] rounded-md w-full sm:flex-1"
+                        placeholder="Coupon Code">
+                    <button
+                        class="bg-[#db4444] px-6 sm:px-8 lg:px-10 py-3 sm:py-4 text-base sm:text-lg text-white tracking-wide rounded-md w-full sm:w-auto text-center whitespace-nowrap">
+                        Apply Coupon
+                    </button>
+                </div>
+
+                <div
+                    class="border w-full lg:w-[40%] py-5 sm:py-6 lg:py-7 px-4 sm:px-5 rounded-md border-black flex flex-col gap-4 sm:gap-5 cart-total">
+                    <h1 class="text-xl sm:text-2xl font-bold tracking-wide">Cart Total</h1>
+                    <div class="flex flex-col justify-center gap-4 sm:gap-5">
+                        <div
+                            class="flex justify-between items-center text-base sm:text-lg border-b border-[#999999] pb-2">
+                            <h1>Subtotal:</h1>
+                            <h1 id="cart-subtotal">$0.00</h1>
+                        </div>
+                        <div
+                            class="flex justify-between items-center text-base sm:text-lg border-b border-[#999999] pb-2">
+                            <h1>Shipping:</h1>
+                            <h1>Free</h1>
+                        </div>
+                        <div class="flex justify-between items-center text-base sm:text-lg">
+                            <h1>Total:</h1>
+                            <h1 id="cart-total">$0.00</h1>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center text-base sm:text-lg">
+                        <a id="checkout-btn"
+                            class="bg-[#db4444] px-6 sm:px-8 lg:px-10 py-3 sm:py-4 text-base sm:text-lg text-white tracking-wide rounded-md w-full text-center cursor-pointer">
+                            Proceed To Checkout
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        async function fetchProductDetails(productId) {
+            try {
+                const response = await fetch(`https://dummyjson.com/products/${productId}`);
+                return await response.json();
+            } catch (error) {
+                return null;
+            }
+        }
+
+        async function displayCartItems() {
+            const cart = getCart();
+            const desktopContainer = document.getElementById("cart-items-desktop");
+            const mobileContainer = document.getElementById("cart-items-mobile");
+
+            function showRedNotification(message) {
+                const notify = document.createElement("div");
+                notify.className = "fixed top-4 right-4 bg-red-500 text-white px-4 py-2 rounded-md shadow-lg z-50 transition-all duration-300";
+                notify.textContent = message;
+                document.body.appendChild(notify);
+                setTimeout(() => {
+                    notify.style.opacity = 0;
+                    setTimeout(() => notify.remove(), 300);
+                }, 2000);
+            }
+
+            const checkoutBtn = document.getElementById('checkout-btn');
+            if (cart.length === 0) {
+                desktopContainer.innerHTML = '<tr><td colspan="4" class="text-center py-10">Your cart is empty</td></tr>';
+                mobileContainer.innerHTML = '<div class="text-center py-10">Your cart is empty</div>';
+                checkoutBtn.addEventListener('click', () => {
+                    showRedNotification('Please Add a Product in the Cart.')
+                })
+                updateCartTotals();
+                return;
+            }
+            else {
+                checkoutBtn.addEventListener('click', () => {
+                    window.location.href = 'Checkout.html'
+                })
+            }
+
+
+            const productPromises = cart.map(item => fetchProductDetails(item.id));
+            const products = await Promise.all(productPromises);
+
+            desktopContainer.innerHTML = cart.map((item, index) => {
+                const product = products[index];
+                if (!product) return '';
+                const itemTotal = product.price * item.quantity;
+                return `
+    <tr class="text-sm sm:text-base lg:text-lg h-[72px] relative cart-item" data-id="${item.id}" data-price="${product.price}" data-stock="${product.stock}">
+        <td class="px-4 sm:px-6 lg:px-10">
+            <div class="flex justify-start items-center gap-3 sm:gap-5">
+                <button class="remove-from-cart w-3 h-3 sm:w-4 sm:h-4 bg-[#db4444] rounded-full absolute right-0 top-0 flex items-center justify-center text-white text-[8px] sm:text-[10px] cursor-pointer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <img class="w-12 sm:w-16 md:w-20 lg:w-24 xl:w-28 object-contain" src="${product.thumbnail}" alt="${product.title}">
+                <span class="text-xs sm:text-sm lg:text-base">${product.title}</span>
+            </div>
+        </td>
+        <td class="text-center px-4 sm:px-6 lg:px-10 item-price">$${product.price.toFixed(2)}</td>
+        <td class="text-center px-4 sm:px-6 lg:px-10">
+            <div class="flex justify-center items-center gap-2 sm:gap-3 border border-[#999999] rounded-md py-1 sm:py-2 px-2 sm:px-4 w-fit mx-auto">
+                <div class="quantity-value text-sm sm:text-base">${item.quantity}</div>
+                <div class="flex justify-center items-center flex-col text-xs sm:text-sm">
+                    <i class="fa-solid fa-angle-up quantity-up cursor-pointer"></i>
+                    <i class="fa-solid fa-angle-down quantity-down cursor-pointer"></i>
+                </div>
+            </div>
+        </td>
+        <td class="text-center px-4 sm:px-6 lg:px-10 item-total">$${itemTotal.toFixed(2)}</td>
+    </tr>`;
+            }).join('');
+
+            mobileContainer.innerHTML = cart.map((item, index) => {
+                const product = products[index];
+                if (!product) return '';
+                const itemTotal = product.price * item.quantity;
+                return `
+    <div class="bg-white shadow-md rounded-lg p-4 relative cart-item" data-id="${item.id}" data-price="${product.price}" data-stock="${product.stock}">
+        <button class="remove-from-cart w-4 h-4 bg-[#db4444] rounded-full absolute -right-2 -top-2 flex items-center justify-center text-white text-[10px] cursor-pointer">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="flex items-center gap-4 mb-4">
+            <img class="w-16 h-16 object-contain" src="${product.thumbnail}" alt="${product.title}">
+            <div class="flex-1">
+                <h3 class="text-base font-medium">${product.title}</h3>
+                <p class="text-lg font-bold text-[#db4444] item-price">$${product.price.toFixed(2)}</p>
+            </div>
+        </div>
+        <div class="flex justify-between items-center">
+            <div class="flex items-center gap-3 border border-[#999999] rounded-md py-2 px-4">
+                <div class="quantity-value text-sm">${item.quantity}</div>
+                <div class="flex flex-col text-xs">
+                    <i class="fa-solid fa-angle-up quantity-up cursor-pointer"></i>
+                    <i class="fa-solid fa-angle-down quantity-down cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="text-right">
+                <p class="text-sm text-gray-600">Subtotal</p>
+                <p class="text-lg font-bold item-total">$${itemTotal.toFixed(2)}</p>
+            </div>
+        </div>
+    </div>`;
+            }).join('');
+
+            updateCartTotals();
+        }
+
+        function updateCartTotals() {
+            const subtotalElement = document.getElementById("cart-subtotal");
+            const totalElement = document.getElementById("cart-total");
+
+            let subtotal = 0;
+
+            const items = document.querySelectorAll("#cart-items-desktop .cart-item");
+            items.forEach(item => {
+                const price = parseFloat(item.dataset.price);
+                const quantity = parseInt(item.querySelector(".quantity-value").textContent);
+                subtotal += price * quantity;
+            });
+
+            subtotalElement.textContent = `$${subtotal.toFixed(2)}`;
+            totalElement.textContent = `$${subtotal.toFixed(2)}`;
+        }
+
+        document.addEventListener("click", function (e) {
+            const removeBtn = e.target.closest(".remove-from-cart");
+            if (removeBtn) {
+                e.preventDefault();
+                const productId = Number(removeBtn.closest(".cart-item").dataset.id);
+                const cart = getCart().filter(item => item.id !== productId);
+                saveCart(cart);
+                updateCartBadge();
+                displayCartItems();
+                window.location.reload();
+            }
+
+            const quantityUp = e.target.closest(".quantity-up");
+            if (quantityUp) {
+                const row = quantityUp.closest(".cart-item");
+                const productId = Number(row.dataset.id);
+                const stock = parseInt(row.dataset.stock);
+                const quantityElement = row.querySelector(".quantity-value");
+                let quantity = parseInt(quantityElement.textContent);
+                if (quantity < stock) {
+                    quantity++;
+                    const cart = getCart();
+                    const item = cart.find(item => item.id === productId);
+                    if (item) item.quantity = quantity;
+                    saveCart(cart);
+                    quantityElement.textContent = quantity;
+                    const price = parseFloat(row.dataset.price);
+                    const totalElement = row.querySelector(".item-total");
+                    totalElement.textContent = `$${(price * quantity).toFixed(2)}`;
+                    updateCartBadge();
+                    updateCartTotals();
+                }
+            }
+
+            const quantityDown = e.target.closest(".quantity-down");
+            if (quantityDown) {
+                const row = quantityDown.closest(".cart-item");
+                const productId = Number(row.dataset.id);
+                const quantityElement = row.querySelector(".quantity-value");
+                let quantity = parseInt(quantityElement.textContent);
+                if (quantity > 1) {
+                    quantity--;
+                    const cart = getCart();
+                    const item = cart.find(item => item.id === productId);
+                    if (item) item.quantity = quantity;
+                    saveCart(cart);
+                    quantityElement.textContent = quantity;
+                    const price = parseFloat(row.dataset.price);
+                    const totalElement = row.querySelector(".item-total");
+                    totalElement.textContent = `$${(price * quantity).toFixed(2)}`;
+                    updateCartTotals();
+                    updateCartBadge();
+                } else {
+                    removeFromCart(productId);
+                    row.remove();
+                    updateCartBadge();
+                    updateCartTotals();
+                }
+            }
+        });
+
+        document.getElementById("update-cart").addEventListener("click", displayCartItems);
+
+        document.addEventListener("DOMContentLoaded", function () {
+            updateCartBadge();
+            displayCartItems();
+        });
+    </script>
+
+    <div class="footer bg-[#000000] text-white w-full">
+        <div class="px-4 md:px-8 lg:px-20 pt-8 lg:pt-16 pb-6 lg:pb-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 lg:gap-8">
+                <div class="flex flex-col gap-4">
+                    <h1 class="text-2xl lg:text-3xl font-bold">Exclusive</h1>
+                    <h2 class="text-xl lg:text-2xl">Subscribe</h2>
+                    <p class="text-sm lg:text-base">Get 10% oFF on Your First Order</p>
+                    <input type="email" placeholder="Enter Your Email"
+                        class="border border-[#f5f5f5] py-2 lg:py-3 px-3 lg:px-5 rounded-lg bg-black text-white text-sm lg:text-base">
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-xl lg:text-2xl">Support</h2>
+                    <ul class="flex flex-col gap-3 text-sm lg:text-base">
+                        <li>111 Bijoy sarani, Dhaka <br>Dh 1515, Bangladesh.</li>
+                        <li>exclusive@gmail.com</li>
+                        <li>+88015-88888-9999</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-xl lg:text-2xl">Account</h2>
+                    <ul class="flex flex-col gap-3 text-sm lg:text-base">
+                        <li><a href="Account.html" class="hover:underline">My Account</a></li>
+                        <li><a href="LogIn.html" class="hover:underline">Login / Register</a></li>
+                        <li><a href="Cart.html" class="hover:underline">Cart</a></li>
+                        <li><a href="WishList.html" class="hover:underline">Wishlist</a></li>
+                        <li><a href="index.html" class="hover:underline">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-xl lg:text-2xl">Quick Link</h2>
+                    <ul class="flex flex-col gap-3 text-sm lg:text-base">
+                        <li><a href="404error.html" class="hover:underline">Privacy Policy</a></li>
+                        <li><a href="404error.html" class="hover:underline">Terms of Use</a></li>
+                        <li><a href="404error.html" class="hover:underline">FAQs</a></li>
+                        <li><a href="Contact.html" class="hover:underline">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-4 sm:col-span-2 lg:col-span-1">
+                    <h2 class="text-xl lg:text-2xl">Download App</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-xs lg:text-sm">Save $3 with App New User Only</p>
+                        <div class="flex items-center gap-3">
+                            <img class="w-16 lg:w-20" src="images/QRcode.png" alt="QR Code">
+                            <img class="w-24 lg:w-32" src="images/download.png" alt="Download App">
+                        </div>
+                        <div class="flex items-center gap-4 lg:gap-6 mt-2">
+                            <a href="Contact.html"><i
+                                    class="fa-brands fa-facebook-f text-xl lg:text-2xl hover:text-blue-500"></i></a>
+                            <a href="Contact.html"><i
+                                    class="fa-brands fa-x-twitter text-xl lg:text-2xl hover:text-gray-400"></i></a>
+                            <a href="Contact.html"><i
+                                    class="fa-brands fa-instagram text-xl lg:text-2xl hover:text-pink-500"></i></a>
+                            <a href="Contact.html"><i
+                                    class="fa-brands fa-linkedin-in text-xl lg:text-2xl hover:text-blue-600"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-[#141414] py-4 px-4 md:px-8 lg:px-20">
+            <p class="text-sm lg:text-base text-[#525252] text-center">&copy; Copyright Rimel 2025. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+    <script src="cart.js" defer></script>
+</body>
+
+</html>
